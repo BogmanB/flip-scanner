@@ -20,4 +20,6 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run Flip Scanner
-        run: python main.py
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.discord_webook }}
+        run: python main.py --send-discord
