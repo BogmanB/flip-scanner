@@ -4,7 +4,7 @@ from pathlib import Path
 
 from config import SETTINGS
 from models import Listing
-from analysis.scoring import analyze_listing
+from scoring import analyze_listing
 from discord import format_analysis, send_to_discord
 
 def load_listings(path: str):
@@ -13,7 +13,7 @@ def load_listings(path: str):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--input", default="data/demo_listings.json")
+    parser.add_argument("--input", default="demo_listings.json")
     parser.add_argument("--send-discord", action="store_true")
     args = parser.parse_args()
 
