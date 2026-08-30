@@ -3,7 +3,7 @@ import re
 from pathlib import Path
 from models import Listing
 
-PRICE_DB_PATH = Path(__file__).resolve().parent.parent / "data" / "market_prices.json"
+PRICE_DB_PATH = Path(__file__).resolve().parent / "market_prices.json"
 
 def load_price_db():
     with PRICE_DB_PATH.open("r", encoding="utf-8") as f:
