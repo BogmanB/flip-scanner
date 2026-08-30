@@ -3,7 +3,7 @@ import re
 from pathlib import Path
 from models import Listing, RepairEstimate
 
-DATA_PATH = Path(__file__).resolve().parent.parent / "data" / "repair_costs.json"
+DATA_PATH = Path(__file__).resolve().parent / "repair_costs.json"
 
 with DATA_PATH.open("r", encoding="utf-8") as f:
     REPAIRS = json.load(f)
