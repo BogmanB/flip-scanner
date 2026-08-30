@@ -1,7 +1,7 @@
 from config import SETTINGS
 from models import Listing, DealAnalysis
-from analysis.repair import estimate_repair
-from analysis.pricing import estimate_market_price
+from repair import estimate_repair
+from pricing import estimate_market_price
 
 def clamp(v, lo, hi):
     return max(lo, min(hi, v))
