@@ -1,0 +1,20 @@
+[
+  {
+    "source": "demo",
+    "title": "Lenovo ThinkPad T14 Gen 2 - prasklý displej",
+    "price_czk": 3500,
+    "url": "https://example.com/t14",
+    "description": "Notebook funguje, externí monitor OK. Prasklý displej.",
+    "location": "České Budějovice",
+    "category": "notebook"
+  },
+  {
+    "source": "demo",
+    "title": "RTX 3070 8GB",
+    "price_czk": 5400,
+    "url": "https://example.com/rtx3070",
+    "description": "Plně funkční, možnost vyzkoušet.",
+    "location": "Tábor",
+    "category": "gpu"
+  }
+]

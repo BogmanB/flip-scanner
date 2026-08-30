@@ -1,0 +1,146 @@
+{
+  "none": {
+    "label": "Bez zjevné závady",
+    "parts_low_czk": 0,
+    "parts_expected_czk": 0,
+    "parts_high_czk": 0,
+    "work_minutes": 10,
+    "confidence": 1.0,
+    "risk_level": "low",
+    "notes": [
+      "Základní funkční test a kontrola."
+    ]
+  },
+  "ssd": {
+    "label": "Chybějící / vadné SSD",
+    "parts_low_czk": 450,
+    "parts_expected_czk": 700,
+    "parts_high_czk": 1200,
+    "work_minutes": 30,
+    "confidence": 0.9,
+    "risk_level": "low",
+    "notes": [
+      "Cena závisí na kapacitě a formátu M.2/SATA."
+    ]
+  },
+  "ram": {
+    "label": "Chybějící / vadná RAM",
+    "parts_low_czk": 250,
+    "parts_expected_czk": 500,
+    "parts_high_czk": 1000,
+    "work_minutes": 15,
+    "confidence": 0.9,
+    "risk_level": "low",
+    "notes": [
+      "Nutno ověřit typ DDR a zda RAM není připájená."
+    ]
+  },
+  "battery": {
+    "label": "Vadná / slabá baterie",
+    "parts_low_czk": 700,
+    "parts_expected_czk": 1200,
+    "parts_high_czk": 2200,
+    "work_minutes": 20,
+    "confidence": 0.85,
+    "risk_level": "low",
+    "notes": [
+      "U některých modelů může být originální baterie výrazně dražší."
+    ]
+  },
+  "display": {
+    "label": "Prasklý / vadný displej",
+    "parts_low_czk": 1000,
+    "parts_expected_czk": 1800,
+    "parts_high_czk": 3500,
+    "work_minutes": 50,
+    "confidence": 0.8,
+    "risk_level": "medium",
+    "notes": [
+      "Je nutné ověřit přesný panel, rozlišení, konektor a případně touch."
+    ]
+  },
+  "keyboard": {
+    "label": "Vadná klávesnice",
+    "parts_low_czk": 500,
+    "parts_expected_czk": 1000,
+    "parts_high_czk": 2200,
+    "work_minutes": 45,
+    "confidence": 0.8,
+    "risk_level": "medium",
+    "notes": [
+      "U některých notebooků je klávesnice součástí celého palmrestu."
+    ]
+  },
+  "fan": {
+    "label": "Ventilátor / přehřívání",
+    "parts_low_czk": 300,
+    "parts_expected_czk": 700,
+    "parts_high_czk": 1600,
+    "work_minutes": 60,
+    "confidence": 0.65,
+    "risk_level": "medium",
+    "notes": [
+      "Přehřívání může být i problém heatpipe nebo desky."
+    ]
+  },
+  "hinge": {
+    "label": "Pant / víko / uchycení",
+    "parts_low_czk": 500,
+    "parts_expected_czk": 1200,
+    "parts_high_czk": 3000,
+    "work_minutes": 90,
+    "confidence": 0.65,
+    "risk_level": "medium",
+    "notes": [
+      "Poškození může zasahovat víko, palmrest i kabel displeje."
+    ]
+  },
+  "charger": {
+    "label": "Chybějící / vadný adaptér",
+    "parts_low_czk": 300,
+    "parts_expected_czk": 600,
+    "parts_high_czk": 1200,
+    "work_minutes": 10,
+    "confidence": 0.8,
+    "risk_level": "low",
+    "notes": [
+      "Pokud notebook ani s jiným adaptérem nereaguje, diagnóza se mění na no-power."
+    ]
+  },
+  "no_power": {
+    "label": "Nejde zapnout / no power",
+    "parts_low_czk": 500,
+    "parts_expected_czk": 3000,
+    "parts_high_czk": 7000,
+    "work_minutes": 180,
+    "confidence": 0.35,
+    "risk_level": "high",
+    "notes": [
+      "Může jít o baterii, napájecí konektor, power circuit i základní desku."
+    ]
+  },
+  "liquid_damage": {
+    "label": "Poškození kapalinou",
+    "parts_low_czk": 1000,
+    "parts_expected_czk": 4500,
+    "parts_high_czk": 10000,
+    "work_minutes": 240,
+    "confidence": 0.2,
+    "risk_level": "extreme",
+    "notes": [
+      "Velmi nepředvídatelné; vhodné hlavně na díly."
+    ]
+  },
+  "motherboard": {
+    "label": "Podezření na základní desku",
+    "parts_low_czk": 2500,
+    "parts_expected_czk": 5000,
+    "parts_high_czk": 10000,
+    "work_minutes": 180,
+    "confidence": 0.4,
+    "risk_level": "extreme",
+    "notes": [
+      "Ekonomika opravy silně závisí na přesném modelu a dostupnosti desky."
+    ]
+  }
+}

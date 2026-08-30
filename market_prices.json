@@ -1,0 +1,21 @@
+{
+  "_comment": "DEMO databáze. Další krok: automatická cenová historie z nalezených inzerátů.",
+  "items": [
+    {
+      "model": "Lenovo ThinkPad T14 Gen 2",
+      "aliases": [
+        "ThinkPad T14 G2",
+        "T14 Gen2"
+      ],
+      "conservative_sell_price_czk": 8000
+    },
+    {
+      "model": "NVIDIA GeForce RTX 3070",
+      "aliases": [
+        "RTX 3070",
+        "GeForce 3070"
+      ],
+      "conservative_sell_price_czk": 7500
+    }
+  ]
+}
